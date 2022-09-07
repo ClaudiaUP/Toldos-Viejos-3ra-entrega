@@ -1,0 +1,204 @@
+@charset "UTF-8";
+h1 {
+  background-color: darkolivegreen;
+  color: white;
+  text-align: center; }
+
+.formato {
+  border: 1px solid darkgreen;
+  text-align: justify; }
+
+.formato2 {
+  border: 1px solid darkgreen;
+  text-align: justify; }
+
+.formatoMaterni, .formatoTambo {
+  text-align: justify;
+  line-height: 1.6;
+  border: 1px solid darkgreen; }
+
+.formatoTambo {
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  padding: 30px;
+  margin: 30px; }
+
+.formato {
+  background-color: #f0f2f5;
+  font-family: "Ibarra Real Nova";
+  line-height: 1.6; }
+
+.padreFotos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px; }
+
+.tamañoFoto {
+  width: 350px;
+  height: 300px;
+  margin: 30px; }
+
+/*------seccionA------*/
+h2 {
+  color: black;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px; }
+
+.formato {
+  color: black;
+  font-size: 25px;
+  padding: 30px;
+  margin: 30px;
+  line-height: 1.6; }
+
+.formato2 {
+  color: black;
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: 25px;
+  line-height: 1.6;
+  padding: 30px;
+  margin: 30px; }
+
+/*Footer*/
+.negrita {
+  color: red;
+  font-size: 20px;
+  font-weight: bold; }
+
+.contacto {
+  gap: 20px; }
+
+.separar {
+  gap: 20px; }
+
+.colorform {
+  background-color: burlywood; }
+
+ul li {
+  list-style-type: none;
+  lighting-color: black;
+  color: black;
+  font-size: 14px;
+  font-weight: bold; }
+
+ol li {
+  list-style-type: none;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none; }
+  ol li a {
+    font-size: 14px;
+    color: black;
+    text-decoration: none; }
+
+h3 {
+  color: black; }
+
+h4 {
+  color: black;
+  font-size: 30px; }
+
+/*-----Maternidad*/
+.seccionMat {
+  grid-area: seccionMat;
+  margin: 30px; }
+
+.formatoMaterni, .formatoTambo {
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  padding: 30px;
+  margin: 30px; }
+
+.alinearFotos {
+  display: flex;
+  justify-content: space-evenly; }
+
+/*-----Tambo-----*/
+.ubicacionTabla {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px 30px 20px 50px; }
+
+/*----Venta-----*/
+.formatoVenta {
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: justify;
+  font-size: 25px;
+  line-height: 1.6;
+  border: 1px solid darkgreen;
+  padding: 30px;
+  margin: 30px; }
+
+.cuadroDeVenta {
+  display: inline;
+  text-align: center;
+  width: 200%;
+  font-size: 15px; }
+
+.agrandarLetraVenta {
+  font-size: 20px;
+  color: cadetblue; }
+
+@keyframes texto {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 100%; } }
+
+.animacion {
+  animation-name: texto;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; }
+
+/*----Contacto-------*/
+.contacto {
+  grid-area: contacto; }
+
+.contTama li {
+  font-size: 30px; }
+
+.cuadroContactos {
+  grid-area: cuadroContactos;
+  width: 60%;
+  margin: 20px 30px 20px 270px;
+  box-shadow: 5px 5px 5px 5px grey;
+  justify-content: center; }
+
+@media (max-width: 576px) {
+  .tamañoFoto {
+    width: 90vw;
+    height: auto;
+    margin: 0px; }
+  h1 {
+    font-size: 20px; }
+  .cuadroContactos {
+    margin: 20px 20px 20px 50px; }
+  ul li {
+    font-size: 10px; }
+  ol li {
+    font-size: 10; }
+  ol li a {
+    font-size: 10; }
+  .tamañoFoto:hover {
+    height: 350px;
+    width: 300px;
+    margin-bottom: 5px; }
+  .formato {
+    font-size: 15px; }
+  .tamañoFoto {
+    width: 250px;
+    height: 200px;
+    margin: 30px;
+    transition: height 0.1s, width 0.8s; }
+  .agrandarLetraVenta {
+    font-size: 15px; } }

@@ -1,0 +1,12 @@
+@mixin ConParametros ($bgcolor, $letra, $line) {
+    background-color: $bgcolor;
+    font-family: $letra;
+    line-height: $line;
+}
+
+.formato{
+    @include ConParametros(rgb(240, 242, 245), 'Ibarra Real Nova', 1.6);
+}
+
+
+

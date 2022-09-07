@@ -1,0 +1,15 @@
+.formatoMaterni{
+    text-align: justify;
+    line-height: 1.6;
+    border: 1px solid darkgreen; 
+}
+   
+    .formatoTambo{
+        color: $color-negro;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+        padding: 30px;
+        margin: 30px;
+        @extend .formatoMaterni;
+    }
+   

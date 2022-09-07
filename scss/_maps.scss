@@ -1,0 +1,10 @@
+$estilo: (border:1px solid darkgreen, align:justify);
+.formato{
+    border:map-get($estilo, border);
+    text-align: map-get($estilo,align);
+}
+
+.formato2{
+    border:map-get($estilo, border);
+    text-align: map-get($estilo,align);
+}
