@@ -38,9 +38,10 @@ h2{
 
 .formato{
     color: $color-negro;
+    font-family: 'Ibarra Real Nova', serif;
     font-size: $letra25;
     padding: 30px;
-    margin: 30px;
+    margin: 45px;
     line-height: 1.6;   
 }
 
@@ -52,6 +53,8 @@ h2{
     line-height: 1.6;
     padding: 30px;
     margin: 30px;
+    background-color: (rgb(234, 247, 166));
+    
 }
 
 /*Footer*/
@@ -68,11 +71,19 @@ h2{
 }
 .separar{
     gap: 20px;
+    font-size: 20px;
  }
 
   .colorform{
-    background-color: burlywood;
+    background-color:(rgb(234, 247, 166)) ;
+
   } 
+
+ .color-boton-contacto{
+    color: white;
+    background-color: darkgreen;
+    border-radius: 10px;
+ } 
 
 ul li{
     list-style-type: none;
@@ -119,6 +130,7 @@ font-size: 30px;
     font-size: $letra25;
     padding: 30px;
     margin: 30px;
+    background-color:(rgb(234, 247, 166)) ;
 
 }    
     
@@ -151,6 +163,8 @@ font-size: 30px;
     border: 1px solid darkgreen; 
     padding: 30px;
     margin: 30px;
+    background-color:(rgb(234, 247, 166)) ;
+    ;
 } 
  .cuadroDeVenta{
    display: inline;
@@ -189,7 +203,7 @@ font-size: 30px;
 }
 
 .contTama li{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .cuadroContactos{
