@@ -4,6 +4,9 @@ h1 {
   color: white;
   text-align: center; }
 
+a.colorLetra:hover {
+  color: aqua; }
+
 .formato {
   border: 2px solid darkgreen;
   text-align: justify; }
@@ -19,14 +22,13 @@ h1 {
 
 .formatoTambo {
   color: black;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium','Times New Roman', Times, serif;
   font-size: 25px;
   padding: 30px;
   margin: 30px; }
 
 .formato {
   background-color: #eaf7a6;
-  font-family: "Ibarra Real Nova";
   line-height: 1.6; }
 
 .padreFotos {
@@ -52,7 +54,7 @@ h2 {
 
 .formato {
   color: black;
-  font-family: 'Ibarra Real Nova', serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 25px;
   padding: 30px;
   margin: 45px;
@@ -60,7 +62,7 @@ h2 {
 
 .formato2 {
   color: black;
-  font-family: 'Ibarra Real Nova', serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 25px;
   line-height: 1.6;
   padding: 30px;
