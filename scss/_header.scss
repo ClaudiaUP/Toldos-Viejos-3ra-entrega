@@ -2,15 +2,26 @@
 
 
  h1{
-     background-color: darkolivegreen ;
-     color: white;
+    background-color: darkolivegreen ;
+    color: white;
     text-align: center;
 
     }
 
-a.colorLetra:hover{color: aqua;}
+ .colorLetra ul li a{
+    padding: 0.1rem 0.1rem;
+    transition: all 0.4s linear;
+ } 
+ 
+ .colorLetra ul li a:hover{
+    background-color: lightgreen
 
-   
+ }
 
-   
+
+
+
+
+
+
 

@@ -4,8 +4,12 @@ h1 {
   color: white;
   text-align: center; }
 
-a.colorLetra:hover {
-  color: aqua; }
+.colorLetra ul li a {
+  padding: 0.1rem 0.1rem;
+  transition: all 0.4s linear; }
+
+.colorLetra ul li a:hover {
+  background-color: lightgreen; }
 
 .formato {
   border: 2px solid darkgreen;
@@ -22,7 +26,7 @@ a.colorLetra:hover {
 
 .formatoTambo {
   color: black;
-  font-family: 'Franklin Gothic Medium','Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 25px;
   padding: 30px;
   margin: 30px; }
@@ -42,6 +46,61 @@ a.colorLetra:hover {
   width: 350px;
   height: 300px;
   margin: 30px; }
+
+/*carrusel 5 imagenes*/
+h2 {
+  text-align: center; }
+
+.carrusel {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 200px; }
+
+.carrusel ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 1015px;
+  scroll-behavior: smooth; }
+
+.carrusel-fotos {
+  display: flex;
+  gap: 10px;
+  overflow: auto; }
+
+.carrusel-fotos img {
+  background: lightsteelblue;
+  border: 4px solid black;
+  width: 300px;
+  height: 200px;
+  object-fit: contain; }
+
+.carrusel-menu {
+  display: none; }
+
+@media screen and (min-width: 1200px) {
+  .carrusel-fotos {
+    display: flex;
+    gap: 10px;
+    overflow: auto; } }
+
+@media screen and (min-width: 500px) {
+  .carrusel-fotos {
+    overflow: hidden; }
+  .carrusel-fotos img {
+    width: 500px;
+    height: 400px; }
+  .carrusel-menu {
+    display: block; }
+  .carrusel-menu img {
+    box-sizing: border-box;
+    width: 50px;
+    height: 40px;
+    border: 5px solid black; }
+  .carrusel-menu img:hover {
+    border: none; } }
 
 /*------seccionA------*/
 h2 {
@@ -122,7 +181,7 @@ h4 {
 
 .formatoMaterni, .formatoTambo {
   color: black;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 25px;
   padding: 30px;
   margin: 30px;
@@ -142,7 +201,7 @@ h4 {
 /*----Venta-----*/
 .formatoVenta {
   color: black;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: justify;
   font-size: 25px;
   line-height: 1.6;
