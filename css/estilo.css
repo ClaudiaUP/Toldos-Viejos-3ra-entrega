@@ -48,9 +48,6 @@ h1 {
   margin: 30px; }
 
 /*carrusel 5 imagenes*/
-h2 {
-  text-align: center; }
-
 .carrusel {
   display: flex;
   gap: 10px;
@@ -79,12 +76,6 @@ h2 {
 
 .carrusel-menu {
   display: none; }
-
-@media screen and (min-width: 1200px) {
-  .carrusel-fotos {
-    display: flex;
-    gap: 10px;
-    overflow: auto; } }
 
 @media screen and (min-width: 500px) {
   .carrusel-fotos {
@@ -253,7 +244,7 @@ h4 {
   h1 {
     font-size: 20px; }
   .cuadroContactos {
-    margin: 20px 20px 20px 50px; }
+    margin: 20px 20px 20px 100px; }
   ul li {
     font-size: 10px; }
   ol li {
@@ -265,7 +256,15 @@ h4 {
     width: 300px;
     margin-bottom: 5px; }
   .formato {
-    font-size: 15px; }
+    font-size: 20px; }
+  .formato2 {
+    font-size: 20px; }
+  .formatoMaterni, .formatoTambo {
+    font-size: 20px; }
+  .formatoVenta {
+    font-size: 20px; }
+  .formatoTambo {
+    font-size: 20px; }
   .tamañoFoto {
     width: 250px;
     height: 200px;
