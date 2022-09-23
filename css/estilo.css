@@ -121,11 +121,6 @@ h2 {
   background-color: #eaf7a6; }
 
 /*Footer*/
-.negrita {
-  color: red;
-  font-size: 20px;
-  font-weight: bold; }
-
 .contacto {
   gap: 20px; }
 
@@ -224,24 +219,16 @@ h4 {
   animation-iteration-count: infinite; }
 
 /*----Contacto-------*/
-.contacto {
-  grid-area: contacto; }
-
 .contTama li {
   font-size: 20px; }
 
 .cuadroContactos {
-  grid-area: cuadroContactos;
-  width: 60%;
+  width: 50%;
   margin: 20px 30px 20px 270px;
   box-shadow: 5px 5px 5px 5px grey;
   justify-content: center; }
 
-@media (max-width: 1200px) {
-  .cuadroContactos {
-    margin-left: 200px; } }
-
-@media (max-width: 576px) {
+@media (max-width: 600px) {
   .tamañoFoto {
     width: 90vw;
     height: auto;
@@ -249,7 +236,7 @@ h4 {
   h1 {
     font-size: 20px; }
   .cuadroContactos {
-    margin: 20px 20px 20px 100px; }
+    margin: 20px 20px 20px 120px; }
   ul li {
     font-size: 10px; }
   ol li {

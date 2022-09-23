@@ -130,12 +130,6 @@ h2{
 
 /*Footer*/
 
-.negrita{
-    color: red;
-    font-size: 20px;
-    font-weight: bold;
-}
-
 
 .contacto{
     gap: 20px;
@@ -268,35 +262,35 @@ font-size: 30px;
 /*----Contacto-------*/
 
 
-.contacto{
-    grid-area: contacto;
+// .contacto{
+//     grid-area: contacto;
 
-}
+// }
 
 .contTama li{
     font-size: 20px;
 }
 
 .cuadroContactos{
-    grid-area: cuadroContactos; 
-    width: 60%;
-    margin: 20px 30px 20px 270px;
+    // grid-area: cuadroContactos; 
+    width: 50%;
+     margin: 20px 30px 20px 270px;
     box-shadow: 5px 5px 5px 5px grey;
     justify-content: center;
 
 }
 
-@media (max-width:1200px){
+// @media (max-width:750px){
+// 
+// .cuadroContactos{
+    // margin: 20px 60px 20px 1px;  
 
-.cuadroContactos{
-    margin-left: 200px;
-
-}
-}  
+// }
+// }  
    
 
 
-@media (max-width:576px) {
+@media (max-width:600px) {
 
     .tamañoFoto{
         width: 90vw;
@@ -308,9 +302,9 @@ font-size: 30px;
 h1{
     font-size: 20px;
 } 
-.cuadroContactos{
-    margin: 20px 20px 20px 100px;
-}
+ .cuadroContactos{
+     margin: 20px 20px 20px 120px;
+ }
 
 ul li{
     
