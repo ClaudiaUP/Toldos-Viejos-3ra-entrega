@@ -1,0 +1,32 @@
+
+ul li{
+    list-style-type: none;
+    lighting-color:black;
+    color: $color-negro;
+    font-size: 14px;
+    font-weight: bold;
+}
+ 
+
+ol li {
+    list-style-type: none;
+    color: $color-negro;
+    font-size: $letra14;
+    font-weight: bold;
+    text-decoration: none;
+
+a{
+font-size: $letra14;
+color: $color-negro;
+text-decoration: none;
+}
+}
+
+h3{
+color: $color-negro;
+}
+
+h4{
+color: $color-negro;
+font-size: 30px;
+}

@@ -39,8 +39,7 @@
       <nav
         class="navbar navbar-expand-xl navbar-light border-3 border-bottom border-success">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"></a
-          ><img src="imagenes/logo Toldos reducida.jpg" alt="logo" />
+          <a class="navbar-brand" href="#"><img src="imagenes/logo Toldos reducida.jpg" class="sm me-auto" alt="logo"></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -54,16 +53,14 @@
           </button>
 
           <div class="collapse navbar-collapse show colorLetra" id="navbarDark">
-            <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-xl-0">
               <li class="nav-item fs-5">
                 <a class="nav-link active" aria-current="page" href="index.html"
                   >Home</a
                 >
               </li>
 
-              <li class="nav-item fs-5">
-                <a
-                  class="nav-link active"
+              <li class="nav-item fs-5"><a class="nav-link active"
                   aria-current="page"
                   href="./html/maternidad-y-crianza.html"
                   >Maternidad</a
@@ -95,58 +92,44 @@
                   >Contactos</a
                 >
               </li>
+              <li class="nav-item fs-5"><a class="nav-link active"
+                aria-current="page"
+                href="#Abajo">Pie de página</a>
+            </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
 
-    <div class="carrusel">
-      <ul class="carrusel-fotos">
-        <li id="Casco Toldos reducida2">
-          <img src="imagenes/Casco Toldos reducida2.jpg" alt="Casco" />
-        </li>
-        <li id="Casco costado redu">
-          <img src="imagenes/Casco costado redu.jpg" alt="Jardin Casco" />
-        </li>
-        <li id="entrada red">
-          <img src="imagenes/entrada red.jpg" alt="Entrada al campo" />
-        </li>
-        <li id="molino redu">
-          <img src="imagenes/molino redu.jpg" alt="molino" />
-        </li>
-        <li id="cuadro vaca redu">
-          <img src="imagenes/cuadro vaca redu.jpg" alt="Cuadro de una vaca" />
-        </li>
-      </ul>
-      <ul class="carrusel-menu">
-        <li>
-          <a href="#Casco Toldos reducida2"
-            ><img src="imagenes/Casco Toldos reducida2.jpg" alt="Casco"
-          /></a>
-        </li>
-        <li>
-          <a href="#Casco costado redu"
-            ><img src="imagenes/Casco costado redu.jpg" alt="Jardin del casco"
-          /></a>
-        </li>
-        <li>
-          <a href="#entrada red"
-            ><img src="imagenes/entrada red.jpg" alt="Entrada al campo"
-          /></a>
-        </li>
-        <li>
-          <a href="#molino redu"
-            ><img src="imagenes/molino redu.jpg" alt="Molino"
-          /></a>
-        </li>
-        <li>
-          <a href="#cuadro vaca redu"
-            ><img src="imagenes/cuadro vaca redu.jpg" alt="Cuadro de una vaca"
-          /></a>
-        </li>
-      </ul>
+    <div id="carouselExampleControls" class="carousel slide colorFranja" data-bs-ride="carousel">
+      <div class="carousel-inner" >
+        <div class="carousel-item active ">
+           <img src="imagenes/Casco Toldos reducida.jpg"  class="d-block w-100 tamañoF" alt="Casco del campo"> 
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/Casco costado redu.jpg" class="d-block w-100 tamañoF" alt="Jardin del casco">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/entrada red.jpg"  class="d-block w-100 tamañoF" alt="Entrada al campo">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/molino redu.jpg"  class="d-block w-100 tamañoF" alt="Molino">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/cuadro vaca redu.jpg"  class="d-block w-100 tamañoF" alt="cuadro">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon colorMayor" aria-hidden="true"></span>
+        <span class="visually-hidden ">Next</span>
+      </button>
     </div>
+    
 
     <div class="seccionA">
       <h2>Historia del campo</h2>

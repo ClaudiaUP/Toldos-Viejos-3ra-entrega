@@ -4,7 +4,7 @@
 @import "maps";
 @import "extend";
 @import "mixin";
-
+@import "footer";
 
 .padreFotos{
     display: flex;
@@ -20,19 +20,30 @@
     width: 350px;
     height: 300px;
     margin: 30px;
-
 }
 
-/*carrusel 5 imagenes*/
+/*Carrousel*/
+
+.tamañoF{
+    height: 500px;
+    object-fit: contain;
+}
 
 
+.colorFranja{
+    background-color: #84A98C;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+}
 
+/*Carrusel con fotitos chiquitas*/
 .carrusel{
     display: flex;
     gap: 10px;
     justify-content: center;
     margin-top: 100px;
-    margin-bottom: 200px;
+   margin-bottom: 200px;
 }
 
 .carrusel ul{
@@ -50,7 +61,7 @@
 }
 
 .carrusel-fotos img{
-    background: lightsteelblue;
+    background: #84A98C;
     border: 4px solid black;
     width: 300px;
     height: 200px;
@@ -58,42 +69,38 @@
 }
 
 .carrusel-menu{
-    display: none;
+display: none;
 }
-
-
 
 
 
 @media screen and (min-width: 500px) {
-    .carrusel-fotos{
-    overflow: hidden;
-    }
-
-
-    .carrusel-fotos img{
-        width: 500px;
-        height: 400px;
-    }
-
-    .carrusel-menu{
-        display: block;
-    }
-
-    .carrusel-menu img {
-    box-sizing: border-box;
-    width: 50px;
-    height: 40px;
-    border: 5px solid black;
-}
-
-    .carrusel-menu img:hover{
-    border: none;
-}
+.carrusel-fotos{
+overflow: hidden;
 }
 
 
-    
+.carrusel-fotos img{
+    width: 500px;
+    height: 400px;
+}
+
+.carrusel-menu{
+    display: block;
+}
+
+.carrusel-menu img {
+box-sizing: border-box;
+width: 50px;
+height: 40px;
+border: 5px solid black;
+}
+
+.carrusel-menu img:hover{
+border: none;
+}
+}
+
 
 
 /*------seccionA------*/
@@ -128,59 +135,7 @@ h2{
     
 }
 
-/*Footer*/
 
-
-.contacto{
-    gap: 20px;
-}
-.separar{
-    gap: 20px;
-    font-size: 20px;
-}
-
-.colorform{
-    background-color:(rgb(234, 247, 166)) ;
-
-} 
-
-.color-boton-contacto{
-    color: white;
-    background-color: darkgreen;
-    border-radius: 10px;
- } 
-
-ul li{
-    list-style-type: none;
-    lighting-color:black;
-    color: $color-negro;
-    font-size: 14px;
-    font-weight: bold;
-}
- 
-
-ol li {
-    list-style-type: none;
-    color: $color-negro;
-    font-size: $letra14;
-    font-weight: bold;
-    text-decoration: none;
- 
- a{
-font-size: $letra14;
-color: $color-negro;
-text-decoration: none;
-}
-}
-
-h3{
-color: $color-negro;
-}
-
-h4{
-color: $color-negro;
-font-size: 30px;
-}
 
 /*-----Maternidad*/
     
@@ -213,7 +168,7 @@ font-size: 30px;
     flex-direction: row;
     justify-content: center;
     padding: 20px 30px 20px 50px;
-   
+
 }
 
 
@@ -231,16 +186,16 @@ font-size: 30px;
     background-color:(rgb(234, 247, 166)) ;
     ;
 } 
- .cuadroDeVenta{
-   display: inline;
+.cuadroDeVenta{
+    display: inline;
     text-align: center;
-     width: 200%;
+    width: 200%;
     font-size: 15px; 
 
 } 
 
 .agrandarLetraVenta{
-    font-size: 20px;
+    font-size: $letra20;
     color: cadetblue;
 }
 
@@ -248,9 +203,9 @@ font-size: 30px;
     0%{
         opacity: 0;
     }
-  100%{
+    100%{
     opacity: 100%;
-  }  
+}  
 }
 
 .animacion{
@@ -261,36 +216,46 @@ font-size: 30px;
     
 /*----Contacto-------*/
 
+.contacto{
+    gap: 20px;
+}
 
-// .contacto{
-//     grid-area: contacto;
+.separar{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: $letra25;
+    font-weight: 200;
+}
 
-// }
+.colorform{
+    background-color:(rgb(234, 247, 166)) ;
+
+} 
+
+.color-boton-contacto{
+    color: white;
+    background-color: darkgreen;
+    border-radius: 10px;
+} 
+
+.centrarForm{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
 
 .contTama li{
-    font-size: 20px;
+    font-size: $letra20;
 }
 
-.cuadroContactos{
-    // grid-area: cuadroContactos; 
-    width: 50%;
-     margin: 20px 30px 20px 270px;
-    box-shadow: 5px 5px 5px 5px grey;
-    justify-content: center;
-
+.cuadroContacto{
+    box-shadow: 5px 5px 5px 5px gray;
 }
 
-// @media (max-width:750px){
-// 
-// .cuadroContactos{
-    // margin: 20px 60px 20px 1px;  
-
-// }
-// }  
-   
 
 
-@media (max-width:600px) {
+@media (max-width:576px) {
 
     .tamañoFoto{
         width: 90vw;
@@ -300,24 +265,22 @@ font-size: 30px;
 
 
 h1{
-    font-size: 20px;
+    font-size: $letra20;
 } 
- .cuadroContactos{
-     margin: 20px 20px 20px 120px;
- }
+
 
 ul li{
     
-    font-size: 10px;
+    font-size: $letra10;
     
 }
 
 ol li{
-    font-size: 10;
+    font-size: $letra20;
 }
 
 ol li a{
-    font-size: 10;
+    font-size: $letra20;
 }
 
 .tamañoFoto:hover{
@@ -327,24 +290,24 @@ ol li a{
 } 
 
 .formato{
-    font-size: 20px;
+    font-size: $letra20;
 }
 
 
 .formato2{
-    font-size: 20px;
+    font-size: $letra20;
 }
 
 .formatoMaterni{
-    font-size: 20px;
+    font-size: $letra20;
 }
 
 .formatoVenta{
-    font-size: 20px;
+    font-size: $letra20;
 }
 
 .formatoTambo{
-    font-size: 20px;
+    font-size: $letra20;
 }
 
 
