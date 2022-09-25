@@ -82,52 +82,6 @@ h4 {
   margin-top: 80px;
   margin-bottom: 80px; }
 
-/*Carrusel con fotitos chiquitas*/
-.carrusel {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 200px; }
-
-.carrusel ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  max-width: 1015px;
-  scroll-behavior: smooth; }
-
-.carrusel-fotos {
-  display: flex;
-  gap: 10px;
-  overflow: auto; }
-
-.carrusel-fotos img {
-  background: #84A98C;
-  border: 4px solid black;
-  width: 300px;
-  height: 200px;
-  object-fit: contain; }
-
-.carrusel-menu {
-  display: none; }
-
-@media screen and (min-width: 500px) {
-  .carrusel-fotos {
-    overflow: hidden; }
-  .carrusel-fotos img {
-    width: 400px;
-    height: 400px; }
-  .carrusel-menu {
-    display: block; }
-  .carrusel-menu img {
-    box-sizing: border-box;
-    width: 50px;
-    height: 40px;
-    border: 5px solid black; }
-  .carrusel-menu img:hover {
-    border: none; } }
-
 /*------seccionA------*/
 h2 {
   color: black;
