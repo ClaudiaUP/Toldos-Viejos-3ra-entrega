@@ -116,7 +116,7 @@ h4 {
   .carrusel-fotos {
     overflow: hidden; }
   .carrusel-fotos img {
-    width: 500px;
+    width: 400px;
     height: 400px; }
   .carrusel-menu {
     display: block; }
@@ -276,4 +276,7 @@ h2 {
     font-size: 15px; }
   .centrarForm {
     margin-left: 50px;
-    margin-right: 50px; } }
+    margin-right: 50px; }
+  .tamañoF {
+    height: 400px;
+    object-fit: contain; } }

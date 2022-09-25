@@ -81,7 +81,7 @@ overflow: hidden;
 
 
 .carrusel-fotos img{
-    width: 500px;
+    width: 400px;
     height: 400px;
 }
 
@@ -326,6 +326,11 @@ ol li a{
 .centrarForm{
     margin-left: 50px;
     margin-right: 50px;
+}
+
+.tamañoF{
+    height: 400px;
+    object-fit: contain;
 }
 
 
