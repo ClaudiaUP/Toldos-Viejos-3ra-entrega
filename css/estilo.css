@@ -231,8 +231,8 @@ h2 {
   border-radius: 10px; }
 
 .centrarForm {
-  margin-left: 150px;
-  margin-right: 150px; }
+  margin-left: 100px;
+  margin-right: 100px; }
 
 .contTama li {
   font-size: 20px; }
@@ -273,4 +273,7 @@ h2 {
     margin: 30px;
     transition: height 0.1s, width 0.8s; }
   .agrandarLetraVenta {
-    font-size: 15px; } }
+    font-size: 15px; }
+  .centrarForm {
+    margin-left: 50px;
+    margin-right: 50px; } }
