@@ -58,7 +58,10 @@ h3 {
 
 h4 {
   color: black;
-  font-size: 30px; }
+  font-size: 20px; }
+
+.espacio {
+  margin-bottom: 50px; }
 
 .padreFotos {
   display: flex;
@@ -96,7 +99,7 @@ h2 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 25px;
   padding: 30px;
-  margin: 45px;
+  margin: 30px;
   line-height: 1.6; }
 
 .formato2 {
@@ -212,9 +215,11 @@ h2 {
     width: 300px;
     margin-bottom: 5px; }
   .formato {
-    font-size: 20px; }
+    font-size: 20px;
+    margin: 20px; }
   .formato2 {
-    font-size: 20px; }
+    font-size: 20px;
+    margin: 20px; }
   .formatoMaterni, .formatoTambo {
     font-size: 20px; }
   .formatoVenta {
