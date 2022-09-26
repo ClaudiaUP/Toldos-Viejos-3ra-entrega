@@ -24,9 +24,11 @@
 
 /*Carrousel*/
 
+
+
 .tamañoF{
     height: 500px;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 
@@ -270,7 +272,6 @@ ol li a{
     height: 400px;
     object-fit: contain;
 }
-
 
 
 }

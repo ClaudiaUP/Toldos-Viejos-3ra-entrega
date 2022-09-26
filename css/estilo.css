@@ -75,7 +75,7 @@ h4 {
 /*Carrousel*/
 .tamañoF {
   height: 500px;
-  object-fit: contain; }
+  object-fit: cover; }
 
 .colorFranja {
   background-color: #84A98C;
