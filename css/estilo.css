@@ -64,7 +64,8 @@ h3 {
 .tamañoFoto {
   width: 350px;
   height: 300px;
-  margin: 30px; }
+  margin: 30px;
+  object-fit: contain; }
 
 /*Carrousel*/
 .tamañoF {
