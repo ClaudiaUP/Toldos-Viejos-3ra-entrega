@@ -37,7 +37,6 @@ h1 {
 
 ul li {
   list-style-type: none;
-  lighting-color: black;
   color: black;
   font-size: 14px;
   font-weight: bold; }
@@ -48,17 +47,9 @@ ol li {
   font-size: 14px;
   font-weight: bold;
   text-decoration: none; }
-  ol li a {
-    font-size: 14px;
-    color: black;
-    text-decoration: none; }
 
 h3 {
   color: black; }
-
-h4 {
-  color: black;
-  font-size: 20px; }
 
 .espacio {
   margin-bottom: 50px; }
@@ -201,29 +192,29 @@ h2 {
   h1 {
     font-size: 20px; }
   ul li {
-    font-size: 10px; }
+    font-size: 14px; }
   ol li {
-    font-size: 20px; }
+    font-size: 14px; }
   ol li a {
-    font-size: 20px; }
+    font-size: 14px; }
   .tamañoFoto:hover {
     height: 350px;
     width: 300px;
     margin-bottom: 5px; }
   .formato {
-    font-size: 20px;
+    font-size: 16px;
     margin: 20px; }
   .formato2 {
-    font-size: 20px;
+    font-size: 16px;
     margin: 20px; }
   .formatoMaterni, .formatoTambo {
-    font-size: 20px;
+    font-size: 16px;
     margin: 15px; }
   .formatoVenta {
-    font-size: 20px;
+    font-size: 16px;
     margin: 15px; }
   .formatoTambo {
-    font-size: 20px;
+    font-size: 16px;
     margin: 15px; }
   .tamañoFoto {
     width: 250px;
