@@ -112,10 +112,6 @@ h2 {
   background-color: #eaf7a6; }
 
 /*-----Maternidad*/
-.seccionMat {
-  grid-area: seccionMat;
-  margin: 30px; }
-
 .formatoMaterni, .formatoTambo {
   color: black;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -221,11 +217,14 @@ h2 {
     font-size: 20px;
     margin: 20px; }
   .formatoMaterni, .formatoTambo {
-    font-size: 20px; }
+    font-size: 20px;
+    margin: 15px; }
   .formatoVenta {
-    font-size: 20px; }
+    font-size: 20px;
+    margin: 15px; }
   .formatoTambo {
-    font-size: 20px; }
+    font-size: 20px;
+    margin: 15px; }
   .tamañoFoto {
     width: 250px;
     height: 200px;

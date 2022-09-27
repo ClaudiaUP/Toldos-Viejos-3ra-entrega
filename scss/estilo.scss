@@ -79,10 +79,6 @@ h2{
 
 /*-----Maternidad*/
     
-.seccionMat{
-    grid-area: seccionMat;
-    margin: 30px;
-}
 
 .formatoMaterni{
     color: $color-negro;
@@ -242,14 +238,17 @@ ol li a{
 
 .formatoMaterni{
     font-size: $letra20;
+    margin: 15px;
 }
 
 .formatoVenta{
     font-size: $letra20;
+    margin: 15px;
 }
 
 .formatoTambo{
     font-size: $letra20;
+    margin: 15px;
 }
 
 
